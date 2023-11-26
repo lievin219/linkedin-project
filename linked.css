@@ -1,0 +1,934 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:black;
+   
+    display: flex;
+     height: 100vh;
+     margin-left: auto;
+     margin-right: auto;
+     padding: 0 10px;
+     color: white;}
+     i{
+         color:white;
+         background-color: gray;
+         border-radius: 5px;
+         border:10px solid var(--twitter-color);
+         font-size: 15px;
+         padding: 9px;
+     }
+     .firstdiv{
+         display: block;
+         float:left;
+        border:solid 2px darkgray;
+        background-color: grey;
+        border-bottom: 2240PX;
+        border-top: 10PX;
+        padding:20PX;
+        display:flex;
+        float: left;
+        border-width: 100%;
+        border-radius: 20px;
+        margin-bottom: 550px;
+        width:100%;
+        color:white;
+     }
+     .secdiv{
+         color:darkgray;
+        
+         
+         
+     }
+     .secdiv input{
+         background-color: darkgray;
+         border-radius: 20px;
+     }
+     .navbars{
+        padding: 20px 40px;
+       
+     }
+     nav{
+        display: flex ;
+        float:left
+     }
+     nav ul li{
+         display:flex;
+         float:left
+     }
+     nav p{
+         font-size: 9px;
+         margin-bottom: -20px;
+         margin-top:20px ;
+         margin-left: -10px;
+     }
+     nav ul li {
+        cursor: pointer;
+        align-items: center;
+        padding-left:40px 20px 30px;
+       
+     }
+     nav ul li span{
+         justify-content: space-between 20px;
+         margin-left: 40px;
+         position: relative
+
+     }
+    
+     nav ul li:hover{
+        text-decoration: underline orange;
+     }
+     .h1{
+         color:orange;
+         margin-left: 50px;
+         font-size: 20px;
+     }
+     .h1:hover{
+        text-decoration: underline;
+     }
+     .active{
+        
+         color:red darkgray;
+     }
+    img.img{
+        border:solid 2px grey;
+         margin-top: 150px;
+         margin-bottom: 40px;
+       margin-right: 200px;
+       width:25%;
+       display: block;
+       border-radius: 20px;
+     }
+    
+    .special{
+         border: solid 10px grey;
+         border-radius: 10px;
+         height:450px;
+         margin-top: 120px;
+         width: 15%;
+         margin-bottom: 10px;
+         margin-right: 700px;
+         margin-left: -1300px;
+       
+       
+
+    }
+     img{
+         width:100%;
+         margin-top: 10px;
+         margin-bottom: 140px;
+         height: 20%;
+
+    }
+    .special p{
+        margin-top: -200px;
+        font-size: 15px;
+        margin-left: 20px;
+         
+    }
+    .arrow{
+        border:solid 30px dimgray;
+        background-color:dimgray;
+        margin-top: 20px;
+        margin-bottom: 60x;
+        width:180px;
+        height: 80%;
+        margin-left: -1px;
+        border-bottom: solid 10px darkgrey
+        
+       
+
+    }
+    .arrow p{
+         font-size: 10px;
+         color:black;
+         margin-top: 20px;
+    }
+    .firstii{
+         border:solid 20px;
+         height:300px;
+         width: 200px;
+         background-color: darkgrey;
+        
+    }
+    .container{
+         margin-top: 110px;
+         margin-left: -1330px;
+         height: 450px;
+         border: solid 3px grey;
+         width:210px;
+         border-radius: 20px;
+         background: grey;
+
+        
+    }
+    .uef {
+         width:100%;
+         height: 150px;
+         margin-top:2px ;
+         margin-bottom: 150px;
+         border-radius: 15px;
+         
+
+    }
+   .tezam{
+     margin-top:-210px;
+     width:30%;
+     margin-right: 10px;
+     margin-left: 70px;
+     border-radius: 70%;
+   }
+   .nehemiya{
+     margin-top: -150px;
+     font-size: 20px;
+     word-spacing: 5px;
+     margin-left: 20px;
+   }
+   .daniel{
+    margin-bottom: 60px;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size:15px ;
+   
+   }
+   h2{
+    margin-top: -50px;
+    border-bottom: solid black 2px;
+    margin-bottom: 20px;
+   }
+   span{
+     color:aquamarine
+   }
+   .ul { 
+    word-spacing: 5px;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 8px;
+    font-size: 10px;
+   }
+   .nomatter{
+     font-size: 20px;
+   }
+.mytools{
+     font-size: 20px;
+}
+.waiting{
+    margin-top: -30px;
+    border-bottom: solid black 2px;
+    margin-bottom: 20px;
+}
+.imfura{
+    border-bottom: solid black 2px;
+    margin-top: 10px;
+}
+.boom{
+     border:solid dimgray 2px ;
+     margin-top: 570px;
+     width:15%;
+     height: 25%;
+     margin-left: -210px;
+     border-radius: 10px;
+     background: dimgray;
+}
+.spani{
+    margin-left: 40px;
+}
+.boom h1{
+     font-size: 20px;
+}
+.nochange{
+    list-style: none;
+    margin-top: 15px;
+}
+.spaning{
+    margin-left: 58px;
+}
+.nono{
+    border-bottom: solid black 2px;
+    margin-top: 20px;
+}
+.sixth{
+    border:solid grey 2px;
+    width:15%;
+    height: 40%;
+    margin-top: 750px;
+    margin-left: -200px;
+    border-radius: 15px;
+  background-color: dimgray;
+  
+}
+.sixth h1{
+     font-size: 20px;
+     margin-left: 20px;
+     margin-top: 15px;
+}
+.disii{
+    list-style: none;
+ 
+}
+.dis{
+    list-style: none;
+}
+.porto{
+     margin-top: -25px;
+     font-size: 15px;
+     margin-right: -50px;
+     margin-left: 40px;
+}
+.sisi{
+     font-size: 17px;
+     margin-left: 35px;
+     margin-top: -20px;
+}
+.mom{
+    flex:0.2;
+    border-right:20px solid var(--twitter-background);
+    min-width:250px;
+    padding-left: 20px;
+    padding-left: 20px;
+    margin-top: 20px; 
+}
+.firfort{
+     border: solid 2px grey;
+     width:100%;
+     height:20%;
+     margin-left: 50px;
+     margin-top: 100px;
+     align-items: center;
+     border-radius: 30px;
+
+}
+.in input{
+    width:60%;
+    background: dimgray;
+    height: 30px;
+    margin-top: -160px;
+    margin-bottom: 50px;
+}
+.cr7{
+    width:5%;
+    height: 80%;
+    margin-top: 5px;
+    border-radius: 100px;
+    margin-left: 20px;
+   
+}
+.moma{
+     width:55%;
+     height: 25%;
+     border:solid grey 3px;
+     margin-top: 110px;
+     margin-left: 40px;
+     border-radius: 20px;
+
+
+}
+
+.gogo{
+    border: solid 2px white;
+    width: 70%;
+    margin-top: -195px;
+    margin-left: 130px;
+    height: 65px;
+    border-radius: 15px;
+}
+.imma{
+    width:10%;
+    height: 55%;
+    border-radius:70%;
+    margin-left: 10px;
+  
+}
+.status{
+     font-size: 20px;
+     margin-top: 15px;
+     margin-left: 20px;
+}
+.diamond li{
+    display: flex;
+    align-items: center;
+float: left;
+margin: 10px 20px 30px 40px;}
+.mafii{
+     border:solid grey 3px;
+     width: 54%;
+     margin-top: 350px;
+     margin-left: -720px;
+     height: 80%;
+     color: dimgray;
+     border-radius: 20px;
+
+}
+    .neymari{
+        width:6.5%;
+        height: 20%;
+        border-radius: 50%;
+        margin-left: 10px;
+    }
+    .neymaro{
+        font-size: 20px;
+        margin-top: -180px;
+        margin-left: 60px;
+    }
+    .neymare{
+        font-size:15px;
+        color:grey;
+        margin-top: 5px;
+        margin-left: 55px;
+        margin-bottom: 50px;
+    }
+    .neymare span{
+         color:darkgray
+    }
+    .meme{
+        color:darkgrey
+    }
+    .mbappe{
+        width:51%;
+        height: 32%;
+    }
+    .messi{
+        width:50%;
+        margin-top: -450px;
+        margin-left: 355px;
+        margin-bottom: 143px;
+       
+        height: 35%;
+       
+         
+    }
+    .cavani{
+        width:30%;
+        margin-top: -270px;
+        height: 22%;
+        border-radius: 2px;
+       
+
+    }
+    .two{
+        width:30%;
+        margin-top: -150px;
+        margin-left:276px ;
+        height: 90px;
+    }
+    .three{
+         width:40%;
+         height:25%;
+         margin-top: -370px;
+         margin-left: 210px;
+         margin-bottom: 155px;
+    }
+    .lasiii{
+        border:solid grey 3px;
+        width:20%;
+        border-radius: 20px;
+        margin-top: 120px;
+        margin-left: 60px;
+        background: dimgray;
+    }
+    .mpa{
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .manu{
+        width:20%;
+        height: 10%;
+        border-radius: 50%;
+    }
+    .manutd{
+        font-size: 20px;
+        margin-top: -180px;
+        margin-left: 68px;
+    }
+    .manut{
+        color: darkgray;
+        font-size:14px ;
+        margin-top: 12px;
+        margin-left: 70px;
+    }
+    .creativity{
+        border: solid 2px white;
+        width:50%;
+        margin-left: 40px;
+        margin-top: 15px;
+        border-radius: 20px;
+    }
+    .follo{
+         font-size: 10px;margin-top: -20px;
+margin-left: 40px;
+    }
+    .maguire{
+        width:17%;
+        margin-top: 680px;
+        margin-left: -250px;
+        border-radius: 20px;
+    }
+    .wewa{
+        font-size: 20px;
+        margin-top: 840px;
+        margin-left: -250px;
+    }
+    @media only screen and (max-width:600px){*{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    body{
+        background-color:black;
+       
+        display: flex;
+         height: 100vh;
+         margin-left: auto;
+         margin-right: auto;
+         padding: 0 10px;
+         color: white;}
+         i{
+             color:white;
+             background-color: gray;
+             border-radius: 5px;
+             border:10px solid var(--twitter-color);
+             font-size: 15px;
+             padding: 9px;
+         }
+         .firstdiv{
+             display: block;
+             float:left;
+            border:solid 2px darkgray;
+            background-color: grey;
+            border-bottom: 2240PX;
+            border-top: 10PX;
+            padding:20PX;
+            display:flex;
+            float: left;
+            border-width: 100%;
+            border-radius: 20px;
+            margin-bottom: 550px;
+            width:100%;
+            color:white;
+         }
+         .secdiv{
+             color:darkgray;
+            
+             
+             
+         }
+         .secdiv input{
+             background-color: darkgray;
+             border-radius: 20px;
+         }
+         .navbars{
+            padding: 20px 40px;
+           
+         }
+         nav{
+            display: flex ;
+            float:left
+         }
+         nav ul li{
+             display:flex;
+             float:left
+         }
+         nav p{
+             font-size: 9px;
+             margin-bottom: -20px;
+             margin-top:20px ;
+             margin-left: -10px;
+         }
+         nav ul li {
+            cursor: pointer;
+            align-items: center;
+            padding-left:40px 20px 30px;
+           
+         }
+         nav ul li span{
+             justify-content: space-between 20px;
+             margin-left: 40px;
+             position: relative
+    
+         }
+        
+         nav ul li:hover{
+            text-decoration: underline orange;
+         }
+         .h1{
+             color:orange;
+             margin-left: 50px;
+             font-size: 20px;
+         }
+         .h1:hover{
+            text-decoration: underline;
+         }
+         .active{
+            
+             color:red darkgray;
+         }
+        img.img{
+            border:solid 2px grey;
+             margin-top: 150px;
+             margin-bottom: 40px;
+           margin-right: 200px;
+           width:25%;
+           display: block;
+           border-radius: 20px;
+         }
+        
+        .special{
+             border: solid 10px grey;
+             border-radius: 10px;
+             height:450px;
+             margin-top: 120px;
+             width: 15%;
+             margin-bottom: 10px;
+             margin-right: 700px;
+             margin-left: -1300px;
+           
+           
+    
+        }
+         img{
+             width:100%;
+             margin-top: 10px;
+             margin-bottom: 140px;
+             height: 20%;
+    
+        }
+        .special p{
+            margin-top: -200px;
+            font-size: 15px;
+            margin-left: 20px;
+             
+        }
+        .arrow{
+            border:solid 30px dimgray;
+            background-color:dimgray;
+            margin-top: 20px;
+            margin-bottom: 60x;
+            width:180px;
+            height: 80%;
+            margin-left: -1px;
+            border-bottom: solid 10px darkgrey
+            
+           
+    
+        }
+        .arrow p{
+             font-size: 10px;
+             color:black;
+             margin-top: 20px;
+        }
+        .firstii{
+             border:solid 20px;
+             height:300px;
+             width: 200px;
+             background-color: darkgrey;
+            
+        }
+        .container{
+             margin-top: 110px;
+             margin-left: -1330px;
+             height: 450px;
+             border: solid 3px grey;
+             width:210px;
+             border-radius: 20px;
+             background: grey;
+    
+            
+        }
+        .uef {
+             width:100%;
+             height: 150px;
+             margin-top:2px ;
+             margin-bottom: 150px;
+             border-radius: 15px;
+             
+    
+        }
+       .tezam{
+         margin-top:-210px;
+         width:30%;
+         margin-right: 10px;
+         margin-left: 70px;
+         border-radius: 70%;
+       }
+       .nehemiya{
+         margin-top: -150px;
+         font-size: 20px;
+         word-spacing: 5px;
+         margin-left: 20px;
+       }
+       .daniel{
+        margin-bottom: 60px;
+        margin-top: 30px;
+        margin-left: 20px;
+        font-size:15px ;
+       
+       }
+       h2{
+        margin-top: -50px;
+        border-bottom: solid black 2px;
+        margin-bottom: 20px;
+       }
+       span{
+         color:aquamarine
+       }
+       .ul { 
+        word-spacing: 5px;
+        text-decoration: none;
+        list-style: none;
+        margin-top: 8px;
+        font-size: 10px;
+       }
+       .nomatter{
+         font-size: 20px;
+       }
+    .mytools{
+         font-size: 20px;
+    }
+    .waiting{
+        margin-top: -30px;
+        border-bottom: solid black 2px;
+        margin-bottom: 20px;
+    }
+    .imfura{
+        border-bottom: solid black 2px;
+        margin-top: 10px;
+    }
+    .boom{
+         border:solid dimgray 2px ;
+         margin-top: 570px;
+         width:15%;
+         height: 25%;
+         margin-left: -210px;
+         border-radius: 10px;
+         background: dimgray;
+    }
+    .spani{
+        margin-left: 40px;
+    }
+    .boom h1{
+         font-size: 20px;
+    }
+    .nochange{
+        list-style: none;
+        margin-top: 15px;
+    }
+    .spaning{
+        margin-left: 58px;
+    }
+    .nono{
+        border-bottom: solid black 2px;
+        margin-top: 20px;
+    }
+    .sixth{
+        border:solid grey 2px;
+        width:15%;
+        height: 40%;
+        margin-top: 750px;
+        margin-left: -200px;
+        border-radius: 15px;
+      background-color: dimgray;
+      
+    }
+    .sixth h1{
+         font-size: 20px;
+         margin-left: 20px;
+         margin-top: 15px;
+    }
+    .disii{
+        list-style: none;
+     
+    }
+    .dis{
+        list-style: none;
+    }
+    .porto{
+         margin-top: -25px;
+         font-size: 15px;
+         margin-right: -50px;
+         margin-left: 40px;
+    }
+    .sisi{
+         font-size: 17px;
+         margin-left: 35px;
+         margin-top: -20px;
+    }
+    .mom{
+        flex:0.2;
+        border-right:20px solid var(--twitter-background);
+        min-width:250px;
+        padding-left: 20px;
+        padding-left: 20px;
+        margin-top: 20px; 
+    }
+    .firfort{
+         border: solid 2px grey;
+         width:100%;
+         height:20%;
+         margin-left: 50px;
+         margin-top: 100px;
+         align-items: center;
+         border-radius: 30px;
+    
+    }
+    .in input{
+        width:60%;
+        background: dimgray;
+        height: 30px;
+        margin-top: -160px;
+        margin-bottom: 50px;
+    }
+    .cr7{
+        width:5%;
+        height: 80%;
+        margin-top: 5px;
+        border-radius: 100px;
+        margin-left: 20px;
+       
+    }
+    .moma{
+         width:55%;
+         height: 25%;
+         border:solid grey 3px;
+         margin-top: 110px;
+         margin-left: 40px;
+         border-radius: 20px;
+    
+    
+    }
+    
+    .gogo{
+        border: solid 2px white;
+        width: 70%;
+        margin-top: -195px;
+        margin-left: 130px;
+        height: 65px;
+        border-radius: 15px;
+    }
+    .imma{
+        width:10%;
+        height: 55%;
+        border-radius:70%;
+        margin-left: 10px;
+      
+    }
+    .status{
+         font-size: 20px;
+         margin-top: 15px;
+         margin-left: 20px;
+    }
+    .diamond li{
+        display: flex;
+        align-items: center;
+    float: left;
+    margin: 10px 20px 30px 40px;}
+    .mafii{
+         border:solid grey 3px;
+         width: 54%;
+         margin-top: 350px;
+         margin-left: -720px;
+         height: 80%;
+         color: dimgray;
+         border-radius: 20px;
+    
+    }
+        .neymari{
+            width:6.5%;
+            height: 20%;
+            border-radius: 50%;
+            margin-left: 10px;
+        }
+        .neymaro{
+            font-size: 20px;
+            margin-top: -180px;
+            margin-left: 60px;
+        }
+        .neymare{
+            font-size:15px;
+            color:grey;
+            margin-top: 5px;
+            margin-left: 55px;
+            margin-bottom: 50px;
+        }
+        .neymare span{
+             color:darkgray
+        }
+        .meme{
+            color:darkgrey
+        }
+        .mbappe{
+            width:51%;
+            height: 32%;
+        }
+        .messi{
+            width:50%;
+            margin-top: -450px;
+            margin-left: 355px;
+            margin-bottom: 143px;
+           
+            height: 35%;
+           
+             
+        }
+        .cavani{
+            width:30%;
+            margin-top: -270px;
+            height: 22%;
+            border-radius: 2px;
+           
+    
+        }
+        .two{
+            width:30%;
+            margin-top: -150px;
+            margin-left:276px ;
+            height: 90px;
+        }
+        .three{
+             width:40%;
+             height:25%;
+             margin-top: -370px;
+             margin-left: 210px;
+             margin-bottom: 155px;
+        }
+        .lasiii{
+            border:solid grey 3px;
+            width:20%;
+            border-radius: 20px;
+            margin-top: 120px;
+            margin-left: 60px;
+            background: dimgray;
+        }
+        .mpa{
+            font-size: 18px;
+            margin-top: 20px;
+        }
+        .manu{
+            width:20%;
+            height: 10%;
+            border-radius: 50%;
+        }
+        .manutd{
+            font-size: 20px;
+            margin-top: -180px;
+            margin-left: 68px;
+        }
+        .manut{
+            color: darkgray;
+            font-size:14px ;
+            margin-top: 12px;
+            margin-left: 70px;
+        }
+        .creativity{
+            border: solid 2px white;
+            width:50%;
+            margin-left: 40px;
+            margin-top: 15px;
+            border-radius: 20px;
+        }
+        .follo{
+             font-size: 10px;margin-top: -20px;
+    margin-left: 40px;
+        }
+    }
